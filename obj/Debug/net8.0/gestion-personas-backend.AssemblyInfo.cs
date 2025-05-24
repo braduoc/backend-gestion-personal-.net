@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("gestion-personas-backend.csproj")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("gestion-personas-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("gestion-personas-backend.csproj")]
-[assembly: System.Reflection.AssemblyTitleAttribute("gestion-personas-backend.csproj")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bd4a44fa2956b73e365a4139a4dc71b89112f4f")]
+[assembly: System.Reflection.AssemblyProductAttribute("gestion-personas-backend")]
+[assembly: System.Reflection.AssemblyTitleAttribute("gestion-personas-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
