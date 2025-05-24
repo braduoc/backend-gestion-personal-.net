@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("gestion-personas-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fda461e5e5cb0486cddb9ba97c1a7b6358ed3eae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4be1612264779915328fcdd3c1f1ecbbacaf779")]
 [assembly: System.Reflection.AssemblyProductAttribute("gestion-personas-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gestion-personas-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

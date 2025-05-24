@@ -404,3 +404,4 @@ C:\Users\derle\Documents\desarrollo-.net\gestion-personas-backend\obj\Debug\net8
 C:\Users\derle\Documents\desarrollo-.net\gestion-personas-backend\obj\Debug\net8.0\gestion-personas-backend.genruntimeconfig.cache
 C:\Users\derle\Documents\desarrollo-.net\gestion-personas-backend\obj\Debug\net8.0\ref\gestion-personas-backend.dll
 C:\Users\derle\Documents\desarrollo-.net\gestion-personas-backend\obj\Debug\net8.0\gestion-personas-backend.sourcelink.json
+C:\Users\derle\Documents\desarrollo-.net\gestion-personas-backend\bin\Debug\net8.0\nuget.config
