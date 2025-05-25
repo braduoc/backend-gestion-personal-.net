@@ -1,8 +1,12 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 using WebApplication1.Dto;
 
 public class CustomerEntity
     {
+         [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int? Id { get; set; }
 
         [Required(ErrorMessage = "El nombre es obligatorio.")]
