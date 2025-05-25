@@ -6,9 +6,9 @@ namespace WebApplication1.Dto
     {
 
         [Required(ErrorMessage = "nombre requerido")]
-        public string? Name { get; set; }
+        public string? First_Name { get; set; }
         [Required(ErrorMessage = "apellido requerido")]
-        public string? LastName { get; set; }
+        public string? Last_Name { get; set; }
         [Required(ErrorMessage = "email requerido")]
         public string? Email { get; set; }
         [Required(ErrorMessage = "phone requerido")]

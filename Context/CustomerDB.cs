@@ -28,8 +28,8 @@ public class CustomerDB : DbContext
    public async Task<CustomerEntity> AddCustomer(CreateCustomerDto createCustomer)
 {
     // Validaciones manuales mínimas
-    if (string.IsNullOrWhiteSpace(createCustomer.Name) ||
-        string.IsNullOrWhiteSpace(createCustomer.LastName) ||
+    if (string.IsNullOrWhiteSpace(createCustomer.First_Name) ||
+        string.IsNullOrWhiteSpace(createCustomer.Last_Name) ||
         string.IsNullOrWhiteSpace(createCustomer.Email))
     {
         throw new ArgumentException("Nombre, Apellido y Email son obligatorios.");
@@ -47,8 +47,8 @@ public class CustomerDB : DbContext
 
     var newCustomer = new CustomerEntity
     {
-        First_Name = createCustomer.Name,
-        Last_Name = createCustomer.LastName,
+        First_Name = createCustomer.First_Name,
+        Last_Name = createCustomer.Last_Name,
         Email = createCustomer.Email,
         Phone = createCustomer.Phone,
         Address = createCustomer.Address
